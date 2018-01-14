@@ -9,6 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="Layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="header">
@@ -34,8 +35,114 @@
         </div>
     </div>
     <div class="container">
-
+        <div class="row">
+            <div class="col-lg-6">
+                <img class="illustration" src="http://alolinh.com/wp-content/uploads/2017/12/IMG_0602.jpg" />
+                <img class="illustration-list" src="http://alolinh.com/wp-content/uploads/2017/12/IMG_0603-180x180.jpg" />
+                <img class="illustration-list" src="http://alolinh.com/wp-content/uploads/2017/12/IMG_0602-180x180.jpg" />
+                <img class="illustration-list" src="http://alolinh.com/wp-content/uploads/2017/12/IMG_0450_1-180x180.jpg" />
+            </div>
+            <div class="col-lg-6">
+                <div>
+                    <h2>Cánh gà nướng sốt 7 vị</h2>
+                    59,000<sup>đ</sup><br />
+                    <i>
+                        Cánh Gà. Nướng lên hoà cùng 7 loại sốt:
+                        chanh dây, tiêu, sa tế, xá xíu, tar tar, mè rang, dâu tằm.
+                    </i><br />
+                    <label>Số lượng</label>
+                    <div class="quantity">
+                        <input type="number" step="1" min="1" name="quantity" value="1" class="input-text qty text" size="4" pattern="[0-9]*" inputmode="numeric">
+                    </div>
+                    <button type="submit" name="add-to-cart" value="1120" class="single_add_to_cart_button button alt">Thêm vào giỏ</button>
+                </div>
+            </div>
+        </div>
+        <h1>Review</h1>
+        <div class="media">
+            <div class="media-left">
+                <img src="http://www.pinoydevelopers.com/wp-content/uploads/2017/10/facebook-avatar-370x370.jpg" class="media-object" style="width:60px">
+            </div>
+            <div class="media-body">
+                <span class="media-heading">Anonymous</span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="media">
+                    <div class="media-left">
+                        <img src="http://www.pinoydevelopers.com/wp-content/uploads/2017/10/facebook-avatar-370x370.jpg" class="media-object" style="width:60px">
+                    </div>
+                    <div class="media-body">
+                        <span class="media-heading">Anonymous</span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h4>Đánh giá</h4>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+        <div class="form-group">
+            <label for="comment">Nhận xét của bạn*:</label>
+            <textarea class="form-control" rows="5" id="comment"></textarea>
+        </div>
+        <div class="form-group row">
+            <div class="col-lg-3">
+                <label for="name">Tên*:</label>
+                <input class="form-control" id="name" type="text">
+            </div>
+            <div class="col-lg-3">
+                <label for="email">Email*:</label>
+                <input class="form-control" id="email" type="text">
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary btn-md">Gửi đi</button>
+        <div class="others-product">
+            <h2>Có thể bạn sẽ thích</h2>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="small-content">
+                            <img class="thumbnail" src="http://alolinh.com/wp-content/uploads/2017/12/IMG_0603.jpg" />
+                            <h3>Cánh gà nướng sốt 7 vị</h3>
+                            <p>Cánh Gà. Nướng lên hoà cùng 7 loại sốt: chanh dây, tiêu, sa tế, xá xíu, tar tar, mè rang, dâu tằm.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="small-content">
+                            <img class="thumbnail" src="http://alolinh.com/wp-content/uploads/2017/12/IMG_0497_1.jpg" />
+                            <h3>Cánh Gà Rán Sốt 7 Vị</h3>
+                            <p>Cánh Gà. Cháy tỏi hoà cùng 7 loại sốt, rán đều qua lớp bột zòn zòn, cay cay.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="small-content">
+                        <img class="thumbnail" src="http://alolinh.com/wp-content/uploads/2017/12/IMG_0604.jpg" />
+                        <h3>Chân Gà Chiên Nước Mắm</h3>
+                        <p>Chân Gà, Tỏi, Ớt, Nước Mắm. Rang muối zòn zòn ngon ngon</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="small-content">
+                        <img class="thumbnail" src="http://alolinh.com/wp-content/uploads/2017/12/IMG_0604.jpg" />
+                        <h3>Chân Gà Chiên Nước Mắm</h3>
+                        <p>Chân Gà, Tỏi, Ớt, Nước Mắm. Rang muối zòn zòn ngon ngon</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
     <div class="footer">
         <div class="container">
             Địa chỉ: Số 1 Võ Văn Ngân - Quận Thủ Đức - Tp. Hồ Chí Minh<br />

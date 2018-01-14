@@ -57,7 +57,14 @@ p {
     width: 300px;
     height: 300px;
 }
-
+.illustration{
+    width:100%;
+}
+.illustration-list{
+    width:130px;
+    height:130px;
+    display:inline-block;
+}
 .breadcrumb {
     background-color: #e0e0d1;
     border-radius:0;
@@ -76,4 +83,33 @@ p {
     text-align: center;
     background-color: #333;
     color:white;
+}
+.checked{
+    color:yellow;
+}
+.media-heading{
+    font-size:20px;
+    padding-right:5px;
+}
+.small-content > .thumbnail {
+    width: 200px;
+    height: 200px;
+}
+.small-content > p {
+    font-size:15px;
+}
+.small-pic-left{
+    width:150px;
+    height:150px;
+    float:left;
+    margin-right:20px;
+}
+.small-pic-right {
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-left: 20px;
+}
+.description{
+    width:600px;
 }
