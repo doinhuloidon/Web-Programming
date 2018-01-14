@@ -1,0 +1,74 @@
+p {
+    margin:0;
+}
+.header {
+    background-color: #333;
+    text-align: center;
+    width: 100%;
+}
+
+.menu > a {
+    display: inline-block;
+    color: white;
+    padding: 10px 30px;
+    margin: 20px 0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+    .menu > a + a {
+        border-left: solid 1px;
+    }
+
+.header a:hover {
+    background-color: #111;
+}
+
+.menu {
+    width: 780px;
+    float: left;
+}
+
+.sign > a {
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    float: right;
+    padding: 5px 10px;
+    margin: 25px 0;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+#logo {
+    width: 145px;
+    height: 100%;
+    float: left;
+}
+
+.thumbnail {
+    width: 300px;
+    height: 300px;
+}
+
+.breadcrumb {
+    background-color: #e0e0d1;
+}
+    .breadcrumb a, p {
+        display: inline-block;
+        font-size: 18px;
+        padding:10px 0;
+    }
+    .breadcrumb  a:after {
+        content: "\00a0>";
+    }
+
+.footer {
+    text-align: center;
+    background-color: #333;
+    color:white;
+}
