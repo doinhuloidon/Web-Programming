@@ -1,13 +1,14 @@
 p {
-    margin:0;
+    margin: 0;
 }
+
 .header {
     background-color: #333;
     text-align: center;
     width: 100%;
-    position:fixed;
-    z-index:1;
-    top:0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
 }
 
 .menu > a {
@@ -57,59 +58,89 @@ p {
     width: 300px;
     height: 300px;
 }
-.illustration{
-    width:100%;
+
+.illustration {
+    width: 100%;
 }
-.illustration-list{
-    width:130px;
-    height:130px;
-    display:inline-block;
+
+.illustration-list {
+    width: 130px;
+    height: 130px;
+    display: inline-block;
 }
+
 .breadcrumb {
     background-color: #e0e0d1;
-    border-radius:0;
-    margin-top:90px;
+    border-radius: 0;
+    margin-top: 90px;
 }
+
     .breadcrumb a, p {
         display: inline-block;
         font-size: 18px;
-        padding:10px 0;
+        padding: 10px 0;
     }
-    .breadcrumb  a:after {
-        content: "\00a0>";
-    }
+
+        .breadcrumb a:after {
+            content: "\00a0>";
+        }
 
 .footer {
     text-align: center;
     background-color: #333;
-    color:white;
+    color: white;
 }
-.checked{
-    color:yellow;
+
+.checked {
+    color: yellow;
 }
-.media-heading{
-    font-size:20px;
-    padding-right:5px;
+
+.media-heading {
+    font-size: 20px;
+    padding-right: 5px;
 }
+
 .small-content > .thumbnail {
     width: 200px;
     height: 200px;
 }
+
 .small-content > p {
-    font-size:15px;
+    font-size: 15px;
 }
-.small-pic-left{
-    width:150px;
-    height:150px;
-    float:left;
-    margin-right:20px;
+
+.small-pic-left {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 20px;
+    display: inline-block;
+    border-radius: 10px;
 }
+
 .small-pic-right {
     width: 150px;
     height: 150px;
     float: right;
     margin-left: 20px;
+    display: inline-block;
+    border-radius: 10px;
 }
-.description{
-    width:600px;
+
+.description {
+    width: 500px;
+    margin: 0;
+    display: inline-block;
+}
+
+    .description h3 {
+        margin-top: 0;
+    }
+
+.dish {
+    margin-bottom: 40px;
+}
+
+.dish-list {
+    margin-bottom: 40px;
 }
