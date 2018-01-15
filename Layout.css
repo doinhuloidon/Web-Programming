@@ -254,3 +254,7 @@ p {
     margin: 0 0 20px 1.66%;
     transition: background-color .2s;
 }
+    .help-center-topics-item:hover {
+        text-decoration: none;
+        background-color: #ebebe0;
+    }
