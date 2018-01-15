@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+
+<html lang="vi" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Feedy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="Layout.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <img id="logo" src="logo.png" />
+            <div class="menu">
+                <a href="#home" class="active">Trang chủ</a>
+                <a href="#menu">Menu</a>
+                <a href="#news">Tin tức</a>
+                <a href="#contact">Liên hệ</a>
+            </div>
+            <div class="sign">
+                <a href="#sign-in">Đăng nhập</a>
+                <a href="#sign-up" style="border-right:solid 1px;">Đăng ký</a>
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="#">Trang chủ</a>
+            <a href="#">Trung tâm hỗ trợ</a>
+            <p>Tài khoản của tôi</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <i class="material-icons" style="color:black;">account_box</i>
+                <span class="topic-title">My Account</span>
+                <h3 style="margin-bottom:30px;">Managing My Account</h3>
+                <ul class="questions">
+                    <li><a>How do I register for a Feedy account?</a></li>
+                    <li><a>How do I remove my credit card information on Feedy website?</a></li>
+                    <li><a>I cannot log in to my account and I forget my password, what should I do?</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <form class="help-center-search" method="GET" action="/helpcenter/searchresult/">
+                    <input class="help-center-search-input" placeholder="Search for topics, questions,..." type="text" value="" name="query" id="query">
+                    <button type="submit" class="help-center-search-submit">
+                        <i class="fa fa-search" style="font-size:30px;"></i>
+                    </button>
+                </form>
+                <h3>Other topics</h3>
+                <ul class="help-center-topics-list">
+                    <li>
+                        <a href="#">
+                            <span><i class="material-icons">account_box</i></span>
+                            <span class="help-center-topics-list-text">My Account</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="material-icons">shopping_cart</i></span>
+                            <span class="help-center-topics-list-text">Products on Feedy</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="material-icons">credit_card</i></span>
+                            <span class="help-center-topics-list-text">Payments</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="material-icons">local_shipping</i></span>
+                            <span class="help-center-topics-list-text">Shipping &amp; Delivery</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="material-icons">refresh</i></span>
+                            <span class="help-center-topics-list-text">Returns</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="material-icons">refresh</i></span>
+                            <span class="help-center-topics-list-text">Refunds</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="material-icons">more_horiz</i></span>
+                            <span class="help-center-topics-list-text">Other Topics</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

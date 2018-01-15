@@ -241,6 +241,7 @@ p {
 .material-icons {
     font-size:48px;
     color:deepskyblue;
+    vertical-align:middle;
 }
 .help-center-topics-item {
     flex-basis: 22%;
@@ -258,3 +259,53 @@ p {
         text-decoration: none;
         background-color: #ebebe0;
     }
+.topic-title {
+    font-size: 36px;
+    font-weight: 300;
+    vertical-align:middle;
+}
+.help-center-search-input {
+    width: 100%;
+    height: 44px;
+    box-sizing: border-box !important;
+    background-color: #fff;
+    color: #202020;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 0 45px 0 13px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.help-center-search-submit {
+    position: absolute;
+    margin-top: -38px;
+    right: 12px;
+    cursor: pointer;
+    border: none;
+    outline: 0;
+    background: 0 0;
+    transition: transform .1s ease-in-out;
+}
+.help-center-topics-list{
+    list-style:none;
+    font-size:17px;
+}
+    .help-center-topics-list a {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 3px;
+        border: 1px solid #dadada;
+        padding: 11px;
+        font-size: 16px;
+        color: #202020;
+        transition: background-color .2s;
+        margin-bottom:10px;
+    }
+        .help-center-topics-list a:hover {
+            background-color: #eaeae1;
+            text-decoration: none;
+        }
+.help-center-topics-list-text {
+    flex-basis: calc(80%);
+}
