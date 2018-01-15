@@ -2,6 +2,15 @@ p {
     margin: 0;
 }
 
+.content a {
+    color: black;
+}
+
+    .content a:hover {
+        text-decoration: none;
+        color:cornflowerblue;
+    }
+
 .header {
     background-color: #333;
     text-align: center;
@@ -61,12 +70,14 @@ p {
 
 .illustration {
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .illustration-list {
     width: 130px;
     height: 130px;
     display: inline-block;
+    margin-right: 10px;
 }
 
 .breadcrumb {
@@ -144,3 +155,25 @@ p {
 .dish-list {
     margin-bottom: 40px;
 }
+
+.quantity input[type=number] {
+    border-radius: 10px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    border: solid 0.5px gray;
+    margin-bottom: 10px;
+}
+
+.add_to_cart_button {
+    background-color: #ff1a1a;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+    .add_to_cart_button:hover {
+        background-color: #ff8080;
+    }
