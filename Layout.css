@@ -8,7 +8,7 @@ p {
 
     .content a:hover {
         text-decoration: none;
-        color:cornflowerblue;
+        color: cornflowerblue;
     }
 
 .header {
@@ -177,3 +177,80 @@ p {
     .add_to_cart_button:hover {
         background-color: #ff8080;
     }
+
+.search-container {
+    text-align: center;
+    background: url(https://inforexbackgroundchecks.com/wp-content/uploads/2016/11/business-background-check.jpg) no-repeat;
+    margin-bottom: 20px;
+    height: 200px;
+}
+
+    .search-container input[type=text] {
+        padding: 8px;
+        font-size: 17px;
+        border: none;
+        border-radius: 10px 0 0 10px;
+        width: 300px;
+    }
+
+    .search-container button {
+        padding: 8px 15px;
+        margin-right: 20px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .search-container h2 {
+        color: white;
+        padding-top: 50px;
+    }
+
+    .search-container button:hover {
+        background: #ccc;
+    }
+
+.questions ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.questions li {
+    flex-basis: 45%;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.questions a {
+    color: black;
+}
+
+    .questions a:hover {
+        color: cornflowerblue;
+        text-decoration: none;
+        cursor: pointer;
+    }
+.help-center-topics {
+    display: flex;
+    flex-wrap: wrap;
+}
+.material-icons {
+    font-size:48px;
+    color:deepskyblue;
+}
+.help-center-topics-item {
+    flex-basis: 22%;
+    height: 190px;
+    box-sizing: border-box;
+    padding: 20px 5px 5px;
+    border-radius: 3px;
+    border: 1px solid #dadada;
+    color: #202020;
+    text-align: center;
+    margin: 0 0 20px 1.66%;
+    transition: background-color .2s;
+}
